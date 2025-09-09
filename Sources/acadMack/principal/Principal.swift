@@ -10,7 +10,7 @@ public class Principal {
     
     func exibir() {
         
-        let novaPessoa = Pessoa(nome: "eric", email: "ericdenser7@gmail.com")
+        let novaPessoa = Pessoa(nome: "Enzo", email: "kiyoshienzo@gmail.com")
         print(novaPessoa.getDescricao())
     }
 }

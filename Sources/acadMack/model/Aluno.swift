@@ -6,7 +6,7 @@
 //
 class Aluno: Pessoa {
     private var matricula: String
-    private var nivell: NivelAluno = NivelAluno.iniciante
+    private var nivel: NivelAluno = NivelAluno.iniciante
     private(set) var plano: Plano
     
     init(nome: String, email: String, matricula: String, nivel: NivelAluno, plano: Plano) {
