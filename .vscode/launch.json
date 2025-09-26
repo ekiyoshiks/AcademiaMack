@@ -17,6 +17,24 @@
             "name": "Release acadMack",
             "program": "${workspaceFolder:AcademiaMack}/.build/release/acadMack",
             "preLaunchTask": "swift: Build Release acadMack"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AcademiaMack}",
+            "name": "Debug acad",
+            "program": "${workspaceFolder:AcademiaMack}/.build/debug/acad",
+            "preLaunchTask": "swift: Build Debug acad"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AcademiaMack}",
+            "name": "Release acad",
+            "program": "${workspaceFolder:AcademiaMack}/.build/release/acad",
+            "preLaunchTask": "swift: Build Release acad"
         }
     ]
 }

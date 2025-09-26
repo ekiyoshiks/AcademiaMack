@@ -5,11 +5,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "AcademiaMack", 
+    name: "Academia", 
     targets: [
 
         .executableTarget(
-            name: "acadMack"
+            name: "acad"
         ),
     ]
 )
